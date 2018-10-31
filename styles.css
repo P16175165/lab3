@@ -1,0 +1,52 @@
+body {
+    background: white;
+    margin: 0;
+}
+h1{
+  font: verdana;
+  font-size: 40px;
+  color: grey;
+  margin: 0;
+}
+
+header{
+    background-color: #000;
+    padding: 0.25em;
+    text-align: center;
+}
+p{
+  font-size: 25px;
+}
+main{
+  width: 85%;
+  padding-right: 55%;
+  float: left;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 100%;
+  background-color: grey;
+  margin: 0px;
+  padding: 15px;
+  float: left;
+}
+
+nav a{
+  color: black;
+  align-items: center;
+  padding: 0.2em;
+  text-decoration: none;
+}
+
+nav a:hover{
+  background-color: grey;
+  color: white;
+}
+
+.active{
+  background-color: #555;
+  color: white;
+}
